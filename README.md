@@ -36,5 +36,5 @@ on each microservice folder.
 (gateway server) http://localhost:9080/service-name/** <br>
 
 (company-api) http://localhost:5000/swagger-ui.html#/ <br>
-(company-validation-api) http://localhost:5100/swagger-ui.html#/ <br>
+(capital-validation-api) http://localhost:5100/swagger-ui.html#/ <br>
 (company-confirmation-api) http://localhost:5200/swagger-ui.html#/  <br>
