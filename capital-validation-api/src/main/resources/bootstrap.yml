@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: capital-validation-api
+  profiles:
+    active: development

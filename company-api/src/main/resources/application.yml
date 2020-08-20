@@ -1,0 +1,18 @@
+server:
+  port: 6000
+  error:
+    include-stacktrace: never
+
+spring:
+  application:
+    name: company-api
+  cloud:
+    consul:
+    host: localhost
+    port: 8500
+    failFast: false
+  kafka:
+    bootstrap-servers: 54.39.28.62:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
